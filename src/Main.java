@@ -18,8 +18,8 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + totalAmountForTheMonth + " руб.");
         //Task 2
         System.out.println("Task 2");
-        int maxAmount = 100_000;
-        int minAmount = 200_000;
+        int maxAmount = arr[0];
+        int minAmount = arr[0];
         for (int i : arr) {
             if (i <= minAmount) {
                 minAmount = i;
